@@ -29,6 +29,14 @@ const PRODUCTS = [
         99.99
     ),
     new Product(
+        'p2',
+        'u1',
+        'Blue Carpet',
+        'https://images.pexels.com/photos/6292/blue-pattern-texture-macro.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        'Fits your red shirt perfectly. To stand on. Not to wear it.',
+        99.99
+    ),
+    new Product(
         'p3',
         'u2',
         'Coffee Mug',
