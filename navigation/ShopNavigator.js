@@ -12,6 +12,7 @@ import ProductDetailScreen from "../screens/shop/ProductDetailScreen";
 import ProductsOverviewScreen from "../screens/shop/ProductsOverviewScreen";
 import CategoriesScreen from "../screens/shop/CategoriesScreen";
 import CartScreen from "../screens/shop/CartScreen";
+import UserProfileScreen from "../screens/user/UserProfileScreen";
 import AuthScreen from "../screens/user/AuthScreen";
 import StartupScreen from "../screens/StartupScreen";
 import Colors from "../constants/Colors";
@@ -38,6 +39,16 @@ const ProductsNavigator = createStackNavigator(
     ProductsOverview: ProductsOverviewScreen,
     ProductDetail: ProductDetailScreen,
     Cart: CartScreen,
+  },
+  {
+    defaultNavigationOptions: defaultNavOptions,
+  }
+);
+
+const ProfileNavigator = createStackNavigator(
+  {
+    userProfile: UserProfileScreen,
+    editUser: EditUserScreen,
   },
   {
     defaultNavigationOptions: defaultNavOptions,
