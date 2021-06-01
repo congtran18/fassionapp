@@ -12,6 +12,7 @@ import ProductDetailScreen from "../screens/shop/ProductDetailScreen";
 import ProductsOverviewScreen from "../screens/shop/ProductsOverviewScreen";
 import CategoriesScreen from "../screens/shop/CategoriesScreen";
 import CartScreen from "../screens/shop/CartScreen";
+import OrdersScreen from "../screens/shop/OrdersScreen";
 import UserProfileScreen from "../screens/user/UserProfileScreen";
 import AuthScreen from "../screens/user/AuthScreen";
 import StartupScreen from "../screens/StartupScreen";
@@ -45,6 +46,15 @@ const ProductsNavigator = createStackNavigator(
   }
 );
 
+const OrdersNavigator = createStackNavigator(
+  {
+    Orders: OrdersScreen,
+  },
+  {
+    defaultNavigationOptions: defaultNavOptions,
+  }
+);
+
 const ProfileNavigator = createStackNavigator(
   {
     userProfile: UserProfileScreen,
@@ -60,6 +70,7 @@ const ProfileNavigator = createStackNavigator(
 const ShopNavigator = createDrawerNavigator(
   {
     Products: ProductsNavigator,
+    Orders: OrdersNavigator,
     Admin: AdminNavigator,
   },
   {
