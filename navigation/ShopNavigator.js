@@ -13,7 +13,11 @@ import ProductsOverviewScreen from "../screens/shop/ProductsOverviewScreen";
 import CategoriesScreen from "../screens/shop/CategoriesScreen";
 import CartScreen from "../screens/shop/CartScreen";
 import OrdersScreen from "../screens/shop/OrdersScreen";
+import BillsScreen from "../screens/user/BillsScreen";
+import UserProductsScreen from "../screens/user/UserProductsScreen";
 import UserProfileScreen from "../screens/user/UserProfileScreen";
+import EditUserScreen from "../screens/user/EditUserScreen";
+import EditProductScreen from "../screens/user/EditProductScreen";
 import AuthScreen from "../screens/user/AuthScreen";
 import StartupScreen from "../screens/StartupScreen";
 import Colors from "../constants/Colors";
@@ -65,6 +69,15 @@ const ProfileNavigator = createStackNavigator(
   }
 );
 
+const BillNavigator = createStackNavigator(
+  {
+    Bills: BillsScreen,
+  },
+  {
+    defaultNavigationOptions: defaultNavOptions,
+  }
+);
+
 
 
 const ShopNavigator = createDrawerNavigator(
@@ -72,6 +85,7 @@ const ShopNavigator = createDrawerNavigator(
     Products: ProductsNavigator,
     Orders: OrdersNavigator,
     Admin: AdminNavigator,
+    Bill: BillNavigator,
   },
   {
     contentOptions: {
