@@ -30,7 +30,8 @@ const ProductItem = (props) => {
             </View>
             <View style={styles.details}>
               <Text style={styles.title}>{props.title}</Text>
-              <Text style={styles.price}>${parseFloat(props.price).toFixed(2)}</Text>
+              <Text style={styles.pricereal}>${parseFloat(props.pricereal).toFixed(2)}</Text>
+              <Text style={styles.pricesale}>{parseFloat(props.pricesale).toFixed(2)>0 ? parseFloat(props.pricesale).toFixed(2): ""}</Text>
             </View>
             <View style={styles.actions}>{props.children}</View>
           </View>
@@ -62,7 +63,7 @@ const styles = StyleSheet.create({
   image: {
     width: "100%",
     height: "100%",
-    resizeMode: "contain",
+    resizeMode: "stretch",
   },
   details: {
     alignItems: "center",
@@ -74,11 +75,18 @@ const styles = StyleSheet.create({
     marginVertical: 1,
     textAlign: "center",
   },
-  price: {
+  pricereal: {
     fontSize: 18,
     color: "#888",
-    marginVertical: 10,
+    marginVertical: 2,
     fontWeight: "bold",
+  },
+  pricesale:{
+    fontSize: 18,
+    color: "#888",
+    marginVertical: 2,
+    fontWeight: "bold",
+    textDecorationLine: 'line-through',
   },
   actions: {
     flexDirection: "row",
