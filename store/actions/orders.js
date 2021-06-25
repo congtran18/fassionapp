@@ -25,7 +25,7 @@ export const fetchOrders = () => {
             resData[key].productTitle,
             resData[key].quantity,
             resData[key].sum,
-            new Date(resData[key].date)
+            resData[key].date
           )
         );
       }
