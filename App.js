@@ -7,17 +7,21 @@ import ReduxThunk from "redux-thunk";
 /* import { Ionicons } from "@expo/vector-icons"; */
 
 import productsReducer from "./store/reducers/products";
-import authReducer from "./store/reducers/auth";
-import NavigationContainer from "./navigation/NavigationContainer";
-import billsReducer from "./store/reducers/bills";
+import cartReducer from "./store/reducers/cart";
 import ordersReducer from "./store/reducers/orders";
+import authReducer from "./store/reducers/auth";
+import billsReducer from "./store/reducers/bills";
 import usersReducer from "./store/reducers/users";
+import feedbacksReducer from "./store/reducers/feedbacks";
+import NavigationContainer from "./navigation/NavigationContainer";
 
 const rootReducer = combineReducers({
   products: productsReducer,
-  auth: authReducer,
-  bills: billsReducer,
+  cart: cartReducer,
   orders: ordersReducer,
+  bills: billsReducer,
+  feedbacks: feedbacksReducer,
+  auth: authReducer,
   users: usersReducer,
 });
 
@@ -50,4 +54,3 @@ export default function App() {
     </Provider>
   );
 }
-
