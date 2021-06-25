@@ -32,13 +32,13 @@ const ProductDetailScreen = (props) => {
 
   const sendOrderHandler = async () => {
     setIsLoading(true);
-    await dispatch(ordersActions.addOrder(selectedProduct.price, selectedProduct.title, count, parseFloat(selectedProduct.price).toFixed(2)*count));
+    await dispatch(ordersActions.addOrder(selectedProduct.pricereal, selectedProduct.title, count, parseFloat(selectedProduct.pricereal).toFixed(2)*count));
     //await dispatch(billActions.addBill(selectedProduct.ownerId,selectedProduct.price, selectedProduct.title, count, parseFloat(selectedProduct.price).toFixed(2)*count, userProfile.realname, userProfile.address, userProfile.phone));
     setIsLoading(false);
   };
   const sendBillHandler = async () => {
     setIsLoading(true);
-    await dispatch(billActions.addBill(selectedProduct.ownerId,selectedProduct.price, selectedProduct.title, count, parseFloat(selectedProduct.price).toFixed(2)*count, userProfile.realname, userProfile.address, userProfile.phone));
+    await dispatch(billActions.addBill(selectedProduct.ownerId,selectedProduct.pricereal, selectedProduct.title, count, parseFloat(selectedProduct.pricereal).toFixed(2)*count, userProfile.realname, userProfile.address, userProfile.phone));
     setIsLoading(false);
   };
   // if (userProfile.length === 0) {
@@ -67,6 +67,12 @@ const ProductDetailScreen = (props) => {
     }
   }
 
+  const selectItemHandler = (productId) => {
+    props.navigation.navigate("FeedBack", {
+      productId: productId,
+    });
+  };
+
   return (
     
     <ScrollView>
@@ -76,7 +82,7 @@ const ProductDetailScreen = (props) => {
           color={Colors.primary}
           title="Buy product"
           onPress={() => {
-            Alert.alert("Are you sure?", "Do you really want to Order this product? all is " + parseFloat(selectedProduct.price).toFixed(2)*count, [
+            Alert.alert("Are you sure?", "Do you really want to Order this product? all is " + parseFloat(selectedProduct.pricereal).toFixed(2)*count, [
               {
                 text: "No",
                 style: "default",
@@ -107,8 +113,18 @@ const ProductDetailScreen = (props) => {
                 <Text style={styles.btnTxt}>+</Text>
               </TouchableOpacity>
             </View>
-      <Text style={styles.price}>${parseFloat(selectedProduct.price).toFixed(2)*count}</Text>
+      <Text style={styles.pricereal}>${parseFloat(selectedProduct.pricereal).toFixed(2)*count}</Text>
+      <Text style={styles.pricesale}>{parseFloat(selectedProduct.pricesale).toFixed(2) > 0 ? parseFloat(selectedProduct.pricesale).toFixed(2) : ""}</Text>
       <Text style={styles.description}>{selectedProduct.description}</Text>
+      <View style={styles.actions}>
+        <Button
+          color={Colors.primary}
+          title="Feed back"
+          onPress={() => {
+            selectItemHandler(productId);
+          }}
+        />
+      </View>
     </ScrollView>
   );
 };
@@ -137,21 +153,30 @@ const styles = StyleSheet.create({
   },
   image: {
     width: "100%",
-    height: 400,
-    resizeMode: "contain",
+    height: 450,
+    resizeMode: "stretch",
+    marginTop : 10,
   },
   actions: {
-    marginVertical: 10,
+    marginVertical: 15,
     alignItems: "center",
     flexDirection: 'row',
     justifyContent: 'center',
   },
-  price: {
+  pricereal: {
     fontSize: 20,
     fontWeight: "bold",
     color: "#888",
     textAlign: "center",
-    marginBottom: 20,
+    marginBottom: 10,
+  },
+  pricesale: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#888",
+    textAlign: "center",
+    marginBottom: 10,
+    textDecorationLine: 'line-through',
   },
   description: {
     fontSize: 15,
