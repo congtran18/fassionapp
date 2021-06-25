@@ -50,7 +50,7 @@ const OrdersScreen = (props) => {
       renderItem={(itemData) => (
         <OrderItem
           sum={itemData.item.sum}
-          date={itemData.item.readableDate}
+          date={new Date(itemData.item.date).toLocaleString()}
           productTitle={itemData.item.productTitle}
           quantity={itemData.item.quantity}
           productPrice={itemData.item.productPrice}

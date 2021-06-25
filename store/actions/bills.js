@@ -28,7 +28,7 @@ export const fetchBills = () => {
             resData[key].realname,
             resData[key].address,
             resData[key].phone,
-            new Date(resData[key].date)
+            resData[key].date
           )
         );
       }

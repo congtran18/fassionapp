@@ -94,7 +94,7 @@ const BillsScreen = (props) => {
       renderItem={(itemData) => (
         <BillItem
           sum={itemData.item.sum}
-          date={itemData.item.readableDate}
+          date={new Date(itemData.item.date).toLocaleString()}
           productTitle={itemData.item.productTitle}
           quantity={itemData.item.quantity}
           realname={itemData.item.realname}
