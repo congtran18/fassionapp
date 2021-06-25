@@ -1,0 +1,759 @@
+{
+  "bills" : {
+    "42EBLjO3Y9RSouLVzmFOqYNdSIl2" : {
+      "-MaM8OQmLQQx_r1BKB5l" : {
+        "address" : "Hạn quoc",
+        "date" : "2021-05-23T02:54:52.370Z",
+        "phone" : "",
+        "productPrice" : "22",
+        "productTitle" : "khoác jeans",
+        "quantity" : 4,
+        "realname" : "Abc",
+        "sum" : 88
+      },
+      "-MaM8fbeNGvmabxw3tXY" : {
+        "address" : "Hạn quoc",
+        "date" : "2021-05-23T02:56:06.840Z",
+        "phone" : "",
+        "productPrice" : "22",
+        "productTitle" : "khoác jeans",
+        "quantity" : 3,
+        "realname" : "Abc",
+        "sum" : 66
+      },
+      "-MaM9DeLsgMQBRHDADT_" : {
+        "address" : "han quoc",
+        "date" : "2021-05-23T02:58:30.389Z",
+        "phone" : "09123123",
+        "productPrice" : "22",
+        "productTitle" : "khoác jeans",
+        "quantity" : 3,
+        "realname" : "cong tran ",
+        "sum" : 66
+      },
+      "-MaMAltkQkayN1m4ih73" : {
+        "address" : "han quoc",
+        "date" : "2021-05-23T03:05:16.861Z",
+        "phone" : "09123123",
+        "productPrice" : "23",
+        "productTitle" : "áo thun cotton",
+        "quantity" : 3,
+        "realname" : "cong tran ",
+        "sum" : 69
+      },
+      "-McyZstkRTsCkJwpY_pV" : {
+        "address" : "han quoc",
+        "date" : "2021-06-24T15:11:35.227Z",
+        "phone" : "09123123",
+        "productPrice" : "20",
+        "productTitle" : "Áo thun cotton",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 20
+      },
+      "-Md2ehhOvbX8bYctOCDe" : {
+        "address" : "han quoc",
+        "date" : "2021-06-25T14:55:07.482Z",
+        "phone" : "09123123",
+        "productPrice" : "24",
+        "productTitle" : "Thun unisex form rộng",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 24
+      }
+    },
+    "Z5IYAvs97nNhjaXmHrfN4M1IhJz2" : {
+      "-Md-vRR1PG3_3TU_PLWm" : {
+        "address" : "han quoc",
+        "date" : "2021-06-25T02:09:21.814Z",
+        "phone" : "09123123",
+        "productPrice" : "28",
+        "productTitle" : "jean nữ sang trọng",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 28
+      },
+      "-Md2ecCmGRZAz0i5nS1x" : {
+        "address" : "han quoc",
+        "date" : "2021-06-25T14:54:44.988Z",
+        "phone" : "09123123",
+        "productPrice" : "28",
+        "productTitle" : "jean nữ sang trọng",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 28
+      },
+      "-Md2edfVpQw_L-kogjJx" : {
+        "address" : "han quoc",
+        "date" : "2021-06-25T14:54:50.985Z",
+        "phone" : "09123123",
+        "productPrice" : "30",
+        "productTitle" : "quần jean nam tốt",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 30
+      },
+      "-Md31jAhz7ijPSiIo0C0" : {
+        "address" : "Le loi",
+        "date" : "2021-06-25T16:40:05.069Z",
+        "phone" : "09123123123",
+        "productPrice" : "30",
+        "productTitle" : "quần jean nam tốt",
+        "quantity" : 3,
+        "realname" : "Cong28",
+        "sum" : 90
+      },
+      "-Md31lEQdI6OPTWw4UgX" : {
+        "address" : "Le loi",
+        "date" : "2021-06-25T16:40:13.494Z",
+        "phone" : "09123123123",
+        "productPrice" : "26",
+        "productTitle" : "jacket unisex",
+        "quantity" : 2,
+        "realname" : "Cong28",
+        "sum" : 52
+      },
+      "-Md34EP874eYlp7pAGnw" : {
+        "address" : "Le loi",
+        "date" : "2021-06-25T16:51:01.324Z",
+        "phone" : "09123123123",
+        "productPrice" : "30",
+        "productTitle" : "quần jean nam tốt",
+        "quantity" : 3,
+        "realname" : "Cong48",
+        "sum" : 90
+      },
+      "-Md34GelmDylvMZ6ulyc" : {
+        "address" : "Le loi",
+        "date" : "2021-06-25T16:51:10.569Z",
+        "phone" : "09123123123",
+        "productPrice" : "26",
+        "productTitle" : "jacket unisex",
+        "quantity" : 1,
+        "realname" : "Cong48",
+        "sum" : 26
+      }
+    },
+    "tvGTURpwFbdh3dSCPPAyNTBSh7J3" : {
+      "-MaBaEBXLgUtyI9Le44s" : {
+        "address" : "nhat ban",
+        "date" : "2021-05-21T01:45:04.099Z",
+        "phone" : "09123123",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : 1,
+        "realname" : "ai do",
+        "sum" : 28
+      },
+      "-MaBaNwAZoOvusZgjn0y" : {
+        "address" : "nhat ban",
+        "date" : "2021-05-21T01:45:44.007Z",
+        "phone" : "09123123",
+        "productPrice" : "23",
+        "productTitle" : "thun cotton basic",
+        "quantity" : 1,
+        "realname" : "ai do",
+        "sum" : 23
+      },
+      "-MaJWyDob54Ny-StLdDK" : {
+        "address" : "nhat ban",
+        "date" : "2021-05-22T14:43:23.015Z",
+        "phone" : "09123123",
+        "productPrice" : "20",
+        "productTitle" : "quần jeans đen ",
+        "quantity" : 2,
+        "realname" : "ai do",
+        "sum" : 40
+      },
+      "-MaJYICjpuQxhe3w2Vi8" : {
+        "address" : "han quoc",
+        "date" : "2021-05-22T14:49:11.121Z",
+        "phone" : "09123123",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 28
+      },
+      "-MaJcFBhRAPHrXtllslU" : {
+        "address" : "han quoc",
+        "date" : "2021-05-22T15:10:49.474Z",
+        "phone" : "09123123",
+        "productPrice" : "23",
+        "productTitle" : "thun cotton basic",
+        "quantity" : 2,
+        "realname" : "cong tran ",
+        "sum" : 46
+      },
+      "-MaJnJhSHVQKEpRFPPO4" : {
+        "address" : "han quoc",
+        "date" : "2021-05-22T15:59:11.855Z",
+        "phone" : "09123123",
+        "productPrice" : "30",
+        "productTitle" : "blazer đen nam",
+        "quantity" : 2,
+        "realname" : "cong tran ",
+        "sum" : 60
+      },
+      "-MaJxLpdfEThj0GdBs1y" : {
+        "address" : "han quoc",
+        "date" : "2021-05-22T16:43:01.307Z",
+        "phone" : "09123123",
+        "productPrice" : "30",
+        "productTitle" : "blazer đen nam",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 30
+      },
+      "-MaJzHgljJjYyj6aKW4w" : {
+        "address" : "nhat ban",
+        "date" : "2021-05-22T16:51:28.650Z",
+        "phone" : "09123123",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : 1,
+        "realname" : "ai do",
+        "sum" : 28
+      },
+      "-MaJzSUe5qUvcDxfWfbM" : {
+        "address" : "nhat ban",
+        "date" : "2021-05-22T16:52:12.848Z",
+        "phone" : "09123123",
+        "productPrice" : "30",
+        "productTitle" : "blazer đen nam",
+        "quantity" : 1,
+        "realname" : "ai do",
+        "sum" : 30
+      },
+      "-Mckk4idhrW5eeoUEBa8" : {
+        "address" : "han quoc",
+        "date" : "2021-06-21T22:45:50.130Z",
+        "phone" : "09123123",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 28
+      },
+      "-Md2ef_ANeN8-aGLv_ev" : {
+        "address" : "han quoc",
+        "date" : "2021-06-25T14:54:58.758Z",
+        "phone" : "09123123",
+        "productPrice" : "28",
+        "productTitle" : "Jean nam mam tính",
+        "quantity" : 3,
+        "realname" : "cong tran ",
+        "sum" : 84
+      },
+      "-Md2eiu4tYa3_SQbutOx" : {
+        "address" : "han quoc",
+        "date" : "2021-06-25T14:55:12.384Z",
+        "phone" : "09123123",
+        "productPrice" : "24",
+        "productTitle" : "thun form rộng nam nữ",
+        "quantity" : 1,
+        "realname" : "cong tran ",
+        "sum" : 24
+      }
+    }
+  },
+  "feedbacks" : {
+    "-MckXv_RQpuPSZA1DGXH" : {
+      "date" : "2021-06-21T21:48:20.387Z",
+      "ownerId" : "tvGTURpwFbdh3dSCPPAyNTBSh7J3",
+      "productId" : "McyiPVxLx70dZBpy5c6",
+      "realname" : "cong tran ",
+      "review" : "ok",
+      "title" : "sản phẩm đẹp khá vừa ý cảm ơn shop"
+    },
+    "-Mcn_9NMnnB8KlfJ_oWI" : {
+      "date" : "2021-06-22T11:56:57.477Z",
+      "ownerId" : "42EBLjO3Y9RSouLVzmFOqYNdSIl2",
+      "productId" : "McyiPVxLx70dZBpy5c6",
+      "realname" : "jongsuk",
+      "review" : "ok",
+      "title" : "sản phẩm đẹp chất lượng tốt giá thành ok sẽ mua tiếp"
+    },
+    "-Md2dhKZ5TpR1_MDBGRC" : {
+      "date" : "2021-06-25T14:50:43.807Z",
+      "ownerId" : "tvGTURpwFbdh3dSCPPAyNTBSh7J3",
+      "productId" : "McyiPVxLx70dZBpy5c6",
+      "realname" : "cong tran ",
+      "review" : "ok",
+      "title" : "Ok chất lượng tốt cảm ơn shop"
+    },
+    "-Md2qUqYTll9S5u9u6Di" : {
+      "date" : "2021-06-25T15:46:36.669Z",
+      "ownerId" : "6k5hbM7MG4fRuOh0sKa9Db6NjDd2",
+      "productId" : "McygAN2k6u8TSeQXPS_",
+      "realname" : "david",
+      "review" : "good",
+      "title" : "Chất lượng tuyệt vời"
+    },
+    "-Md32Knyr5rJntqfAJtX" : {
+      "date" : "2021-06-25T16:42:43.289Z",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "productId" : "McyiPVxLx70dZBpy5c6",
+      "realname" : "trancong",
+      "review" : "",
+      "title" : "Sản phẩm okeee"
+    },
+    "-Md34oUf18FFHrJQ24tP" : {
+      "date" : "2021-06-25T16:53:33.254Z",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "productId" : "McyiPVxLx70dZBpy5c6",
+      "realname" : "trancong",
+      "review" : "",
+      "title" : "Ok"
+    }
+  },
+  "orders" : {
+    "6k5hbM7MG4fRuOh0sKa9Db6NjDd2" : {
+      "-Ma9wW1n-WzAIg3SIsQV" : {
+        "date" : "2021-05-20T18:03:09.364Z",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : 3,
+        "sum" : 84
+      },
+      "-MaJWyDzI4xAJpmCKkre" : {
+        "date" : "2021-05-22T14:43:23.036Z",
+        "productPrice" : "20",
+        "productTitle" : "quần jeans đen ",
+        "quantity" : 2,
+        "sum" : 40
+      },
+      "-MaJzHgkSG0mM8JAPGoX" : {
+        "date" : "2021-05-22T16:51:28.665Z",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : 1,
+        "sum" : 28
+      },
+      "-MaJzSUbVvNeUN0PYSYw" : {
+        "date" : "2021-05-22T16:52:12.868Z",
+        "productPrice" : "30",
+        "productTitle" : "blazer đen nam",
+        "quantity" : 1,
+        "sum" : 30
+      }
+    },
+    "PfASmLoUfJRI7Ter8kAaiOpZZw32" : {
+      "-Md2ymtkV9KFGPp7M2av" : {
+        "date" : "2021-06-25T16:22:51.729Z",
+        "productPrice" : "30",
+        "productTitle" : "quần jean nam tốt",
+        "quantity" : 2,
+        "sum" : 60
+      },
+      "-Md2yq8nJZHtz9ubOXLX" : {
+        "date" : "2021-06-25T16:23:05.034Z",
+        "productPrice" : "26",
+        "productTitle" : "jacket unisex",
+        "quantity" : 3,
+        "sum" : 78
+      }
+    },
+    "VH8UfObzJ8QKLfnzJtjUdaPk5Zw2" : {
+      "-Md31jEf_8rcC136KlfR" : {
+        "date" : "2021-06-25T16:40:05.084Z",
+        "productPrice" : "30",
+        "productTitle" : "quần jean nam tốt",
+        "quantity" : 3,
+        "sum" : 90
+      },
+      "-Md31lEQdI6OPTWw4UgY" : {
+        "date" : "2021-06-25T16:40:13.507Z",
+        "productPrice" : "26",
+        "productTitle" : "jacket unisex",
+        "quantity" : 2,
+        "sum" : 52
+      }
+    },
+    "aS7lQSQsaiflDLPtFgofjUTVBWY2" : {
+      "-MaM8OQziVmAlsEZgJuN" : {
+        "date" : "2021-05-23T02:54:52.383Z",
+        "productPrice" : "22",
+        "productTitle" : "khoác jeans",
+        "quantity" : 4,
+        "sum" : 88
+      },
+      "-MaM8fbeNGvmabxw3tXX" : {
+        "date" : "2021-05-23T02:56:06.856Z",
+        "productPrice" : "22",
+        "productTitle" : "khoác jeans",
+        "quantity" : 3,
+        "sum" : 66
+      }
+    },
+    "iQ37A5VpnSheVnjcy62m0CqatyE3" : {
+      "-Md2wKXBQJ5o41RSRee9" : {
+        "date" : "2021-06-25T16:12:07.146Z",
+        "productPrice" : "24",
+        "productTitle" : "Áo thun phản quang",
+        "quantity" : 3,
+        "sum" : 72
+      },
+      "-Md2wT-saaoDu9Aq09hA" : {
+        "date" : "2021-06-25T16:12:41.882Z",
+        "productPrice" : "24",
+        "productTitle" : "Áo thun phản quang",
+        "quantity" : 3,
+        "sum" : 72
+      },
+      "-Md2wX2LBEzPUQoTfiRY" : {
+        "date" : "2021-06-25T16:12:58.430Z",
+        "productPrice" : "24",
+        "productTitle" : "Áo thun phản quang",
+        "quantity" : 3,
+        "sum" : 72
+      },
+      "-Md2wamkW8_TNMlHi7b7" : {
+        "date" : "2021-06-25T16:13:17.825Z",
+        "productPrice" : "30",
+        "productTitle" : "jean nữ chất liệu tốt",
+        "quantity" : 1,
+        "sum" : 30
+      }
+    },
+    "j6Qbqzt3LXO6HVVHGQnWHabUNku1" : {
+      "-Md34Ee7gO_YbwZKeOGQ" : {
+        "date" : "2021-06-25T16:51:01.336Z",
+        "productPrice" : "30",
+        "productTitle" : "quần jean nam tốt",
+        "quantity" : 3,
+        "sum" : 90
+      },
+      "-Md34GekBU_UojGjIaBS" : {
+        "date" : "2021-06-25T16:51:10.584Z",
+        "productPrice" : "26",
+        "productTitle" : "jacket unisex",
+        "quantity" : 1,
+        "sum" : 26
+      }
+    },
+    "tvGTURpwFbdh3dSCPPAyNTBSh7J3" : {
+      "-Ma4a1UL6vMSJy1fdjMF" : {
+        "date" : "2021-05-19T17:06:51.622Z",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : "1",
+        "sum" : "28.00"
+      },
+      "-MaJYID8EqNru1ffv-uX" : {
+        "date" : "2021-05-22T14:49:11.142Z",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : 1,
+        "sum" : 28
+      },
+      "-MaJcFBhRAPHrXtllslT" : {
+        "date" : "2021-05-22T15:10:49.483Z",
+        "productPrice" : "23",
+        "productTitle" : "thun cotton basic",
+        "quantity" : 2,
+        "sum" : 46
+      },
+      "-MaJnJmT7asg11wGYYjp" : {
+        "date" : "2021-05-22T15:59:11.868Z",
+        "productPrice" : "30",
+        "productTitle" : "blazer đen nam",
+        "quantity" : 2,
+        "sum" : 60
+      },
+      "-MaJxLpb9TPP6YcWfEVU" : {
+        "date" : "2021-05-22T16:43:01.318Z",
+        "productPrice" : "30",
+        "productTitle" : "blazer đen nam",
+        "quantity" : 1,
+        "sum" : 30
+      },
+      "-MaM9DeUTLOS79XLeYAc" : {
+        "date" : "2021-05-23T02:58:30.399Z",
+        "productPrice" : "22",
+        "productTitle" : "khoác jeans",
+        "quantity" : 3,
+        "sum" : 66
+      },
+      "-MaMAltlMljx25ciqU-r" : {
+        "date" : "2021-05-23T03:05:16.876Z",
+        "productPrice" : "23",
+        "productTitle" : "áo thun cotton",
+        "quantity" : 3,
+        "sum" : 69
+      },
+      "-Mckk4r7iJ1vE8kbQ4MA" : {
+        "date" : "2021-06-21T22:45:50.151Z",
+        "productPrice" : "28",
+        "productTitle" : "Áo thun cottton đen",
+        "quantity" : 1,
+        "sum" : 28
+      },
+      "-McyZszcmSeDeCHnTg35" : {
+        "date" : "2021-06-24T15:11:35.247Z",
+        "productPrice" : "20",
+        "productTitle" : "Áo thun cotton",
+        "quantity" : 1,
+        "sum" : 20
+      },
+      "-Md-vRRIKOEwF_Xjs6cG" : {
+        "date" : "2021-06-25T02:09:21.828Z",
+        "productPrice" : "28",
+        "productTitle" : "jean nữ sang trọng",
+        "quantity" : 1,
+        "sum" : 28
+      },
+      "-Md2ecCt0WmtKijXFu2k" : {
+        "date" : "2021-06-25T14:54:45.000Z",
+        "productPrice" : "28",
+        "productTitle" : "jean nữ sang trọng",
+        "quantity" : 1,
+        "sum" : 28
+      },
+      "-Md2edffBBLISe7YBmxT" : {
+        "date" : "2021-06-25T14:54:51.003Z",
+        "productPrice" : "30",
+        "productTitle" : "quần jean nam tốt",
+        "quantity" : 1,
+        "sum" : 30
+      },
+      "-Md2ef_9NdGXH0B9PtTM" : {
+        "date" : "2021-06-25T14:54:58.773Z",
+        "productPrice" : "28",
+        "productTitle" : "Jean nam mam tính",
+        "quantity" : 3,
+        "sum" : 84
+      },
+      "-Md2ehhMlkzavNO_eAXw" : {
+        "date" : "2021-06-25T14:55:07.491Z",
+        "productPrice" : "24",
+        "productTitle" : "Thun unisex form rộng",
+        "quantity" : 1,
+        "sum" : 24
+      },
+      "-Md2eiu8V9LhKNuyGVej" : {
+        "date" : "2021-06-25T14:55:12.405Z",
+        "productPrice" : "24",
+        "productTitle" : "thun form rộng nam nữ",
+        "quantity" : 1,
+        "sum" : 24
+      }
+    }
+  },
+  "products" : {
+    "-McyNsHciHQJNIagzTuU" : {
+      "description" : "Áo thun chất phản quang",
+      "imageUrl" : "https://aothunstore.com/wp-content/uploads/2020/04/ao-thun-tay-lo-02.jpg",
+      "ownerId" : "tvGTURpwFbdh3dSCPPAyNTBSh7J3",
+      "pricereal" : "24",
+      "pricesale" : "30",
+      "tinhtrang" : "ok",
+      "title" : "Áo thun phản quang",
+      "type" : "T-shirt"
+    },
+    "-McyZdiXV9LX6wGgvjBa" : {
+      "description" : "Áo thun chất lượng cho mùa hè",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/aothun1.jpg?alt=media&token=db866a80-fe44-4825-959e-ad02fcc2944a",
+      "ownerId" : "42EBLjO3Y9RSouLVzmFOqYNdSIl2",
+      "pricereal" : "20",
+      "pricesale" : "41",
+      "tinhtrang" : "ok",
+      "title" : "Áo thun cotton",
+      "type" : "T-shirt"
+    },
+    "-Mcy_XwORpLYzBxt_Aj_" : {
+      "description" : "Thun unisex form rộng phù hợp với người cao gầy",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/aothun2.jpg?alt=media&token=f471e9d3-90d3-424f-b92d-2c751d81e247",
+      "ownerId" : "42EBLjO3Y9RSouLVzmFOqYNdSIl2",
+      "pricereal" : "24",
+      "pricesale" : "32",
+      "tinhtrang" : "ok",
+      "title" : "Thun unisex form rộng",
+      "type" : "T-shirt"
+    },
+    "-McybWLjxlQ57rRdVDE4" : {
+      "description" : "jean nữ chất liệu tốt sale sập sàng",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/jean1.jpg?alt=media&token=6242c598-aefb-4be9-aaaf-f978652249b4",
+      "ownerId" : "42EBLjO3Y9RSouLVzmFOqYNdSIl2",
+      "pricereal" : "30",
+      "pricesale" : "120",
+      "tinhtrang" : "ok",
+      "title" : "jean nữ chất liệu tốt",
+      "type" : "jeans"
+    },
+    "-McycIZycLoQp1qgaWGc" : {
+      "description" : "thun form rộng nam nữ đôi đẹp",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/aothun3.jpg?alt=media&token=a86dc343-c8f3-439d-a067-d253e387ee49",
+      "ownerId" : "tvGTURpwFbdh3dSCPPAyNTBSh7J3",
+      "pricereal" : "24",
+      "pricesale" : "51",
+      "tinhtrang" : "ok",
+      "title" : "thun form rộng nam nữ",
+      "type" : "T-shirt"
+    },
+    "-McycvFM8tLS6WkGac1D" : {
+      "description" : "jean đen chất ngầu nam tính",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/jean6.jpg?alt=media&token=61fb6b1e-fe60-45da-b4d1-d4a52b240e3b",
+      "ownerId" : "tvGTURpwFbdh3dSCPPAyNTBSh7J3",
+      "pricereal" : "28",
+      "pricesale" : "",
+      "tinhtrang" : "ok",
+      "title" : "Jean nam mam tính",
+      "type" : "jeans"
+    },
+    "-McydB_-wvuP4sBkLYM3" : {
+      "description" : "áo jean tốt và cá tính",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/jean4.jpg?alt=media&token=2437f5ce-46b0-4f41-9302-036d9d4317a9",
+      "ownerId" : "tvGTURpwFbdh3dSCPPAyNTBSh7J3",
+      "pricereal" : "24",
+      "pricesale" : "45",
+      "tinhtrang" : "ok",
+      "title" : "áo jean cá tính",
+      "type" : "jeans"
+    },
+    "-McyeJqrrxFW0hQjiFbb" : {
+      "description" : "jeans nữ ôm dáng đẹp",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/jean3.jpg?alt=media&token=0fa50b5a-68ff-4e14-b59e-563a80015361",
+      "ownerId" : "42EBLjO3Y9RSouLVzmFOqYNdSIl2",
+      "pricereal" : "24",
+      "pricesale" : "",
+      "tinhtrang" : "ok",
+      "title" : "jeans nữ ôm gọn",
+      "type" : "jeans"
+    },
+    "-McyfftQO5z82oD8Wag8" : {
+      "description" : "jeans nam chất liệu đẹp ôm gọn thoải mái và cá tính",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/jean2.jpg?alt=media&token=3b07256d-30e3-4bce-ae58-bbc9de8dcda1",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "30",
+      "pricesale" : "50",
+      "tinhtrang" : "ok",
+      "title" : "quần jean nam tốt",
+      "type" : "jeans"
+    },
+    "-McygAN2k6u8TSeQXPS_" : {
+      "description" : "jean nam đẹp tốt",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/jean5.jpg?alt=media&token=32338564-4338-4ae4-897c-a7cfc8ad37e6",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "28",
+      "pricesale" : "",
+      "tinhtrang" : "ok",
+      "title" : "jean nam cool",
+      "type" : "jeans"
+    },
+    "-McyhAjtTAKmHzdvSkP_" : {
+      "description" : "vest nam lịch sự ok",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/vest1.jpg?alt=media&token=aedc5001-2938-4e8a-918f-f2668a17662a",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "24",
+      "pricesale" : "50",
+      "tinhtrang" : "ok",
+      "title" : "vest nam lịch sự",
+      "type" : "vest"
+    },
+    "-McyhdLvBgtC2iAgnpcB" : {
+      "description" : "vest nam đẹp sang trọng",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/vest3.jpg?alt=media&token=647bbd7b-a9a4-4185-a77b-3aacb52b1fb9",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "30",
+      "pricesale" : "48",
+      "tinhtrang" : "ok",
+      "title" : "vest nam sang trọng",
+      "type" : "vest"
+    },
+    "-McyhoOhxPTHQ9o_uveV" : {
+      "description" : "vest xanh đẹp ok",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/vest4.jpg?alt=media&token=575e8ced-013c-4612-aa9d-af3e583541e8",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "32",
+      "pricesale" : "",
+      "tinhtrang" : "ok",
+      "title" : " vest xanh đẹp",
+      "type" : "vest"
+    },
+    "-McyiPVxLx70dZBpy5c6" : {
+      "description" : "jean nữ sang trọng cool ngầu",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/jean8.jpg?alt=media&token=e67901ba-20ed-4d73-858b-287d6bc70e2d",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "28",
+      "pricesale" : "48",
+      "tinhtrang" : "ok",
+      "title" : "jean nữ sang trọng",
+      "type" : "jeans"
+    },
+    "-McyjHCPJrmYbhAFSeQt" : {
+      "description" : "quần short nam đẹp",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/shortpaint1.jpg?alt=media&token=ee0be5c7-da65-4546-abec-9cf1672134d2",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "24",
+      "pricesale" : "28",
+      "tinhtrang" : "ok",
+      "title" : "quần short nam đẹp",
+      "type" : "short pant"
+    },
+    "-McyjWTFJjgKM8YDLhcf" : {
+      "description" : "quần short đẹp ok",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/shortpant2.jpg?alt=media&token=a1cd4e40-1e08-4f59-b3d9-5062e7080b30",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "28",
+      "pricesale" : "30",
+      "tinhtrang" : "ok",
+      "title" : "quần short cool ngầu",
+      "type" : "short pant"
+    },
+    "-Mcyk4HgOyMTaE33S2UT" : {
+      "description" : "jacket đẹp form rộng",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/appfasion.appspot.com/o/jacket1.jpg?alt=media&token=652aced3-b7c5-437a-bc02-c8bf34fde978",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "pricereal" : "26",
+      "pricesale" : "28",
+      "tinhtrang" : "ok",
+      "title" : "jacket unisex",
+      "type" : "jacket"
+    }
+  },
+  "users" : {
+    "-Ma5ncuvZ7glPnOpTZ-b" : {
+      "address" : "han quoc",
+      "imageUrl" : "https://supperclean.vn/wp-content/uploads/2020/12/anh-trai-dep-viet-nam-6.jpg",
+      "ownerId" : "tvGTURpwFbdh3dSCPPAyNTBSh7J3",
+      "phone" : "09123123",
+      "realname" : "cong tran "
+    },
+    "-Ma5sbv2kOFFA6VheqJ3" : {
+      "address" : "nhat ban",
+      "imageUrl" : "https://supperclean.vn/wp-content/uploads/2020/12/anh-trai-dep-viet-nam-8.jpg",
+      "ownerId" : "6k5hbM7MG4fRuOh0sKa9Db6NjDd2",
+      "phone" : "09123123",
+      "realname" : "ai do"
+    },
+    "-MaM66SkXr9Jmqfig3JK" : {
+      "address" : "han quoc",
+      "imageUrl" : "https://icapi.org/wp-content/uploads/2019/10/anh-trai-dep-han-quoc-9.jpg",
+      "ownerId" : "42EBLjO3Y9RSouLVzmFOqYNdSIl2",
+      "phone" : "09123123",
+      "realname" : "jongsuk"
+    },
+    "-MaM7vxrjEQsAR8uubwG" : {
+      "address" : "Hạn quoc",
+      "imageUrl" : "https://kenh14cdn.com/2018/5/14/screen-shot-2018-05-14-at-95026-pm-1526309638534871393209.png",
+      "ownerId" : "aS7lQSQsaiflDLPtFgofjUTVBWY2",
+      "phone" : "09123112",
+      "realname" : "Abc"
+    },
+    "-McyfH8lvU--LVNLtITl" : {
+      "address" : "188 le loi",
+      "imageUrl" : "https://i.pinimg.com/474x/e4/0f/f1/e40ff129a29c6362b85a601274d9495f.jpg",
+      "ownerId" : "Z5IYAvs97nNhjaXmHrfN4M1IhJz2",
+      "phone" : "091231231",
+      "realname" : "trancong"
+    },
+    "-Md33qPhLPCuybY7U5uG" : {
+      "address" : "Le loi",
+      "imageUrl" : "https://vn-test-11.slatic.net/p/b072d9ef1a65d28e81561712733b9b0c.jpg_720x720q80.jpg_.webp",
+      "ownerId" : "j6Qbqzt3LXO6HVVHGQnWHabUNku1",
+      "phone" : "09123123123",
+      "realname" : "Cong48"
+    }
+  }
+}
