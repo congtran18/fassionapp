@@ -14,12 +14,17 @@ import CategoriesScreen from "../screens/shop/CategoriesScreen";
 import CartScreen from "../screens/shop/CartScreen";
 import OrdersScreen from "../screens/shop/OrdersScreen";
 import BillsScreen from "../screens/user/BillsScreen";
+import FeedBackScreen from "../screens/shop/FeedBackScreen";
+import AddFeedBackScreen from "../screens/user/AddFeedBackScreen";
 import UserProductsScreen from "../screens/user/UserProductsScreen";
 import UserProfileScreen from "../screens/user/UserProfileScreen";
 import EditUserScreen from "../screens/user/EditUserScreen";
 import EditProductScreen from "../screens/user/EditProductScreen";
 import AuthScreen from "../screens/user/AuthScreen";
 import StartupScreen from "../screens/StartupScreen";
+import CategorySaleScreen from "../screens/shop/CategorySaleScreen";
+import SaleScreen from "../screens/shop/SaleScreen";
+
 import Colors from "../constants/Colors";
 import * as authActions from "../store/actions/auth";
 
@@ -43,7 +48,19 @@ const ProductsNavigator = createStackNavigator(
     Categories: CategoriesScreen,
     ProductsOverview: ProductsOverviewScreen,
     ProductDetail: ProductDetailScreen,
+    FeedBack: FeedBackScreen,
+    AddFeedBack: AddFeedBackScreen,
     Cart: CartScreen,
+  },
+  {
+    defaultNavigationOptions: defaultNavOptions,
+  }
+);
+
+const SaleNavigator = createStackNavigator(
+  {
+    CategorySale: CategorySaleScreen,
+    Sale: SaleScreen,
   },
   {
     defaultNavigationOptions: defaultNavOptions,
@@ -53,6 +70,16 @@ const ProductsNavigator = createStackNavigator(
 const OrdersNavigator = createStackNavigator(
   {
     Orders: OrdersScreen,
+  },
+  {
+    defaultNavigationOptions: defaultNavOptions,
+  }
+);
+
+const AdminNavigator = createStackNavigator(
+  {
+    userProducts: UserProductsScreen,
+    EditProduct: EditProductScreen,
   },
   {
     defaultNavigationOptions: defaultNavOptions,
@@ -78,14 +105,14 @@ const BillNavigator = createStackNavigator(
   }
 );
 
-
-
 const ShopNavigator = createDrawerNavigator(
   {
     Products: ProductsNavigator,
     Orders: OrdersNavigator,
     Admin: AdminNavigator,
+    Profile: ProfileNavigator,
     Bill: BillNavigator,
+    Sale: SaleNavigator,
   },
   {
     contentOptions: {
