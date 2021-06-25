@@ -27,8 +27,10 @@ export default (state = initialState, action) => {
         action.productData.title,
         action.productData.imageUrl,
         action.productData.description,
-        action.productData.price,
-        action.productData.type
+        action.productData.pricereal,
+        action.productData.pricesale,
+        action.productData.type,
+        action.productData.tinhtrang,
       );
       return {
         ...state,
@@ -41,12 +43,14 @@ export default (state = initialState, action) => {
       );
       const updatedProduct = new Product(
         action.pid,
-        state.userProducts[productIndex.ownerId],
+        action.productData.ownerId,
         action.productData.title,
         action.productData.imageUrl,
         action.productData.description,
-        action.productData.price,
+        action.productData.pricereal,
+        action.productData.pricesale,
         action.productData.type,
+        action.productData.tinhtrang,
         //state.userProducts[productIndex].price
       );
       const updatedUserProducts = [...state.userProducts];
