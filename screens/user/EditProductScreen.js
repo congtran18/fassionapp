@@ -7,6 +7,7 @@ import {
   StyleSheet,
   Platform,
   Alert,
+  TextInput,
   KeyboardAvoidingView,
   ActivityIndicator,
 } from "react-native";
@@ -14,6 +15,7 @@ import { useSelector, useDispatch } from "react-redux";
 import * as productsActions from "../../store/actions/products";
 import Colors from "../../constants/Colors";
 import Input from "../../components/UI/Input";
+import {Picker} from "@react-native-picker/picker";
 
 const FORM_INPUT_UPDATE = "FORM_INPUT_UPDATE";
 
@@ -45,26 +47,32 @@ const EditProductScreen = (props) => {
   const [error, setError] = useState();
 
   const prodId = props.navigation.getParam("productId");
+  // var prodId2 = prodId.substring(prodId.indexOf('-')+1);
   const editedProduct = useSelector((state) =>
     state.products.userProducts.find((prod) => prod.id === prodId)
   );
 
   const dispatch = useDispatch();
+  const [Enable , setEnable]  = useState("T-shirt");
 
   const [formState, dispatchFormState] = useReducer(formReducer, {
     inputValues: {
       title: editedProduct ? editedProduct.title : "",
       imageUrl: editedProduct ? editedProduct.imageUrl : "",
       description: editedProduct ? editedProduct.description : "",
-      price: editedProduct ? editedProduct.price : "",
+      pricereal: editedProduct ? editedProduct.pricereal : "",
+      pricesale: editedProduct ? editedProduct.pricesale : "",
       type: editedProduct ? editedProduct.type : "",
+      tinhtrang: editedProduct ? editedProduct.tinhtrang : "",
     },
     inputValidities: {
       title: editedProduct ? true : false,
       imageUrl: editedProduct ? true : false,
       description: editedProduct ? true : false,
-      price: editedProduct ? true : false,
+      pricereal: editedProduct ? true : false,
+      pricesale: editedProduct ? true : false,
       type: editedProduct ? true : false,
+      tinhtrang: editedProduct ? true : false,
     },
     formIsValid: editedProduct ? true : false,
   });
@@ -92,8 +100,10 @@ const EditProductScreen = (props) => {
             formState.inputValues.title,
             formState.inputValues.description,
             formState.inputValues.imageUrl,
-            formState.inputValues.price,
+            formState.inputValues.pricereal,
+            formState.inputValues.pricesale,
             formState.inputValues.type,
+            formState.inputValues.tinhtrang,
           )
         );
       } else {
@@ -102,8 +112,10 @@ const EditProductScreen = (props) => {
             formState.inputValues.title,
             formState.inputValues.description,
             formState.inputValues.imageUrl,
-            formState.inputValues.price,
+            formState.inputValues.pricereal,
+            formState.inputValues.pricesale,
             formState.inputValues.type,
+            formState.inputValues.tinhtrang,
           )
         );
       }
@@ -172,14 +184,24 @@ const EditProductScreen = (props) => {
             required
           />
           <Input
-            id="price"
-            label="Price"
+            id="pricereal"
+            label="Price Real"
             errorText="Please enter a valid price!"
             keyboardType="default"
             returnKeyType="next"
             onInputChange={inputChangeHandler}
-            initialValue={editedProduct ? editedProduct.price : ""}
+            initialValue={editedProduct ? editedProduct.pricereal : ""}
             required
+            min={0.1}
+          />
+          <Input
+            id="pricesale"
+            label="Price Sale"
+            errorText="Please enter a valid price!"
+            keyboardType="default"
+            returnKeyType="next"
+            onInputChange={inputChangeHandler}
+            initialValue={editedProduct ? editedProduct.pricesale : ""}
             min={0.1}
           />
           <Input
@@ -208,6 +230,31 @@ const EditProductScreen = (props) => {
             initiallyValid={!!editedProduct}
             required
           />
+          <Input
+            id="tinhtrang"
+            label="Tinhtrang"
+            errorText="Please enter a valid type!"
+            keyboardType="default"
+            returnKeyType="next"
+            onInputChange={inputChangeHandler}
+            initialValue={editedProduct ? "ok" : ""}
+            initiallyValid={!!editedProduct}
+            required
+          />
+          {/* <Picker
+          id="type"
+          selectedValue={editedProduct ? editedProduct.type : Enable}
+          style={{ height: 50, width: 250 }}
+          mode={"dialog"}
+          onValueChange={(itemValue) => setEnable(itemValue)}
+          >
+          <Picker.Item label="T-shirt" value="T-shirt" />
+          <Picker.Item label="jeans" value="jeans" />
+          <Picker.Item label="Kaki pant" value="Kaki pant" />
+          <Picker.Item label="short pant" value="short pant" />
+          <Picker.Item label="jacket" value="jacket" />
+          <Picker.Item label="vest" value="vest" />
+          </Picker> */}
         </View>
       </ScrollView>
     </KeyboardAvoidingView>
