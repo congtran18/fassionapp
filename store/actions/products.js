@@ -27,8 +27,10 @@ export const fetchProducts = (type2) => {
             resData[key].title,
             resData[key].imageUrl,
             resData[key].description,
-            resData[key].price,
+            resData[key].pricereal,
+            resData[key].pricesale,
             resData[key].type,
+            resData[key].tinhtrang,
           )
         );
       }
@@ -102,7 +104,7 @@ export const deleteProduct = (productId) => {
   };
 };
 
-export const createProduct = (title, description, imageUrl, price, type) => {
+export const createProduct = (title, description, imageUrl, pricereal, pricesale, type, tinhtrang) => {
   return async (dispatch, getState) => {
     const token = getState().auth.token;
     const userId = getState().auth.userId;
@@ -117,8 +119,10 @@ export const createProduct = (title, description, imageUrl, price, type) => {
           title,
           description,
           imageUrl,
-          price,
+          pricereal,
+          pricesale,
           type,
+          tinhtrang,
           ownerId: userId,
         }),
       }
@@ -133,17 +137,20 @@ export const createProduct = (title, description, imageUrl, price, type) => {
         title,
         description,
         imageUrl,
-        price,
+        pricereal,
+        pricesale,
         type,
+        tinhtrang,
         ownerId: userId,
       },
     });
   };
 };
 
-export const updateProduct = (title, description, imageUrl, price, type) => {
+export const updateProduct = (id, title, description, imageUrl, pricereal, pricesale, type, tinhtrang,) => {
   return async (dispatch, getState) => {
     const token = getState().auth.token;
+    const userId = getState().auth.userId;
     const response = await fetch(
       `https://appfasion-default-rtdb.firebaseio.com/products/${id}.json?auth=${token}`,
       {
@@ -155,8 +162,10 @@ export const updateProduct = (title, description, imageUrl, price, type) => {
           title,
           description,
           imageUrl,
-          price,
+          pricereal,
+          pricesale,
           type,
+          tinhtrang,
         }),
       }
     );
@@ -172,8 +181,11 @@ export const updateProduct = (title, description, imageUrl, price, type) => {
         title,
         description,
         imageUrl,
-        price,
+        pricereal,
+        pricesale,
         type,
+        tinhtrang,
+        ownerId: userId,
       },
     });
   };
