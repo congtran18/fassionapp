@@ -27,8 +27,8 @@ const ProductsOverviewScreen = (props) => {
   const categoryType = props.navigation.getParam("categoryType");
   const products = useSelector((state) => state.products.availableProducts).filter(function(item){
     return item.type == categoryType;
- }).map(function({id, ownerId, title, imageUrl, description, price, type}){
-     return {id, ownerId, title, imageUrl, description, price, type};
+ }).map(function({id, ownerId, title, imageUrl, description, pricereal, pricesale, type}){
+     return {id, ownerId, title, imageUrl, description, pricereal, pricesale, type};
  });
  const WIDTH = Dimensions.get('window').width;
 //   data = data.filter(function(item){
@@ -118,7 +118,8 @@ const ProductsOverviewScreen = (props) => {
         <ProductItem
           image={itemData.item.imageUrl}
           title={itemData.item.title}
-          price={itemData.item.price}
+          pricereal={itemData.item.pricereal}
+          pricesale={itemData.item.pricesale}
           onSelect={() => {
             selectItemHandler(itemData.item.id, itemData.item.title);
           }}
